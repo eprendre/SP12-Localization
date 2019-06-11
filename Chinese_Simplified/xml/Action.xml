@@ -73,7 +73,9 @@
  <Item type="Action" keyed_name="ES_RunCrawlerAction" config_id="88D177A3909A4EF09E629A7F1FE108E0">
   <property __name="label" en="Run" zc="执行" />
  </Item>
- <Item type="Action" keyed_name="Create Project Template" config_id="8B6CA6C5B4C34FA3B7A0FC9F94F27952"></Item>
+ <Item type="Action" keyed_name="Create Project Template" config_id="8B6CA6C5B4C34FA3B7A0FC9F94F27952">
+  <property __name="label" en="Create Project Template" zc="创建项目模板" />
+ </Item>
  <Item type="Action" keyed_name="UpdateTimeZoneInfo" config_id="8C97B829FF2D448CBEF4FFE63DB65636">
   <property __name="label" en="Update timezones data" zc="更新时区" />
  </Item>
@@ -98,7 +100,9 @@
  <Item type="Action" keyed_name="cmf_RecalculateContentViews" config_id="AC5F2546AF2145158A28047A54577D0A">
   <property __name="label" en="Recalculate Content Views" zc="重建内容视图" />
  </Item>
- <Item type="Action" keyed_name="Update Project" config_id="AEBC037F360A498B90707FEE1650ECC7"></Item>
+ <Item type="Action" keyed_name="Update Project" config_id="AEBC037F360A498B90707FEE1650ECC7">
+  <property __name="label" en="Update Project" zc="更新项目" />
+ </Item>
  <Item type="Action" keyed_name="Run Server Method" config_id="B06750478A1E42FFA1142D59FB485D7C">
   <property __name="label" en="Run Server Method" zc="执行服务端方法" />
  </Item>
@@ -108,7 +112,9 @@
  <Item type="Action" keyed_name="ES_RestartCrawlerAction" config_id="B6119E826FC24A5DB641E0F2E58D1EE9">
   <property __name="label" en="Restart" zc="重新开始" />
  </Item>
- <Item type="Action" keyed_name="Schedule Project" config_id="B7D07423A1AD49919B8B9B5D56F91FD4"></Item>
+ <Item type="Action" keyed_name="Schedule Project" config_id="B7D07423A1AD49919B8B9B5D56F91FD4">
+  <property __name="label" en="Schedule Project" zc="项目排程" />
+ </Item>
  <Item type="Action" keyed_name="rb_Open_SimpleStructure" config_id="BE4DA46B3C7640498B191742611EE986"></Item>
  <Item type="Action" keyed_name="ES_DisableCrawlerAction" config_id="C01B6DE9E1A646B08A13FA5C0843D008">
   <property __name="label" en="Disable" zc="禁用" />
