@@ -390,7 +390,7 @@
   <property __name="label" en="Months" zc="" />
  </Item>
  <Item type="Value" keyed_name="D715889A711D4C4BBB6C814B35A9DA16" config_id="D715889A711D4C4BBB6C814B35A9DA16">
-  <property __name="label" en="Hours" zc="" />
+  <property __name="label" en="Hours" zc="工时" />
  </Item>
  <Item type="Value" keyed_name="F93FB100CF684F39B25FC262E7D7750F" config_id="F93FB100CF684F39B25FC262E7D7750F">
   <property __name="label" en="Days" zc="" />
@@ -2389,7 +2389,7 @@
   <property __name="label" en="In Review" zc="" />
  </Item>
  <Item type="Value" keyed_name="6160463360FF4FF7A4B856055CEF5D5B" config_id="6160463360FF4FF7A4B856055CEF5D5B">
-  <property __name="label" en="Released" zc="" />
+  <property __name="label" en="Released" zc="已发布" />
  </Item>
  <Item type="Value" keyed_name="8799964BA4394892BAD97B9F87B68D3E" config_id="8799964BA4394892BAD97B9F87B68D3E">
   <property __name="label" en="In Change" zc="" />

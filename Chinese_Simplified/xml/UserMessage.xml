@@ -255,7 +255,7 @@
   <property __name="text" en="Failed to version the item: revision sequence exceeded." zc="" />
  </Item>
  <Item type="UserMessage" keyed_name="Aras.Server.Core.PropertiesAreNotUniqueException" config_id="32BCFF533AA340C2AB9098AAFDD4D874">
-  <property __name="text" en="{0} with {1} already exists." zc="" />
+  <property __name="text" en="{0} with {1} already exists." zc="{0} 与 {1} 已存在." />
  </Item>
  <Item type="UserMessage" keyed_name="SSVC_ItemIdEmpty" config_id="341300DC331C4F1F8E663911DC311681">
   <property __name="text" en="Item Type Id should not be empty." zc="" />

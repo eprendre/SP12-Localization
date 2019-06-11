@@ -753,7 +753,7 @@ Would you like to switch to {1} search mode?"/>
 	<resource key="promotedlg.no_available_promotions_found" value="未找到有效提升."/>
 	<resource key="promotedlg.comment" value="请输入注释:"/>
 	<resource key="promotedlg.select_state" value="先选择一个状态."/>
-	<resource key="promotedlg.to_state" value="To State"/>
+	<resource key="promotedlg.to_state" value="到...状态"/>
 	<!--       Client/Scripts/promoteDialog.html       -->
 	<!-- +++++ Client/Scripts/propsDialog.html +++++ -->
 	<resource key="propsdialog.item_type_label__item_keyed_name__properties" value="{0} &quot;{1}&quot; 属性"/>

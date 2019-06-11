@@ -58,7 +58,7 @@
   <property __name="label" en="Cancel Change" zc="" />
  </Item>
  <Item type="Workflow Map Path" keyed_name="423000CCBC0E48049A0EC9B9B33EEA86" config_id="423000CCBC0E48049A0EC9B9B33EEA86">
-  <property __name="label" en="Cancel" zc="" />
+  <property __name="label" en="Cancel" zc="取消" />
  </Item>
  <Item type="Workflow Map Path" keyed_name="718DEDFAF63A43B98D3D2C2122E85A11" config_id="718DEDFAF63A43B98D3D2C2122E85A11">
   <property __name="label" en="Submit to Authors" zc="" />

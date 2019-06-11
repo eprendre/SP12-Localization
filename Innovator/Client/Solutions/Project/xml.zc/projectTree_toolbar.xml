@@ -19,7 +19,7 @@
     <button disabled="true" image="../images/NextPage.svg" id="move_down" tooltip="向下移" text="向下移"/>
     <button disabled="true" image="../images/PreviousPage.svg" id="move_up" tooltip="向上移" text="向上移"/>
     <separator/>
-    <button disabled="true" image="../images/Copy.svg" id="copy" tooltip="Copy" text="Copy"/>
+    <button disabled="true" image="../images/Copy.svg" id="copy" tooltip="复制" text="复制"/>
     <button disabled="true" image="../images/Cut.svg" id="cut" tooltip="剪切" text="剪切"/>
     <button disabled="true" image="../images/Paste.svg" id="paste" tooltip="粘贴" text="粘贴"/>
     <separator/>
@@ -31,7 +31,7 @@
     <button image="../images/Schedule.svg" id="execute_scheduling" tooltip="执行 排程" text="执行 排程"/>
     <button disabled="true" image="../images/UpdateActivity.svg" id="open_completion_dialog" tooltip="打开完成对话框" text="打开完成对话框"/>
     <button disabled="false" image="../images/Print.svg" id="print" tooltip="打印" text="打印"/>
-		<button image="../images/GanttChart.svg" id="show_gantt_chart" tooltip="Show Gantt Chart" text="Show Gantt Chart"/>
+		<button image="../images/GanttChart.svg" id="show_gantt_chart" tooltip="甘特图展示t" text="甘特图展示"/>
     <!--button image="../images/ProjectExpandAll.svg" id="expand_all" tooltip="全部展开" text="全部展开"/>
     <button image="../images/ProjectCollapseAll.svg" id="collapse_all" tooltip="全部折叠" text="全部折叠"/-->
     <button image="../images/ExecuteSearch.svg" id="execute_filter" tooltip="执行 过滤器" text="执行 过滤器"/>

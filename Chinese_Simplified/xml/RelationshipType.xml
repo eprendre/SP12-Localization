@@ -617,13 +617,13 @@
  </Item>
  <Item type="RelationshipType" keyed_name="cfg_NamedConstant" config_id="EB915B0AB8414F889BC0B8CD82F27430"></Item>
  <Item type="RelationshipType" keyed_name="Express DCO Affected Item" config_id="9DED2FCF54214D27B5064640E4C680A9">
-  <property __name="label" en="Affected Items" zc="" />
+  <property __name="label" en="Affected Items" zc="影响对象" />
  </Item>
  <Item type="RelationshipType" keyed_name="Express DCO File" config_id="1BA59C03671A4995AF09622CE182E089">
-  <property __name="label" en="Attachments" zc="" />
+  <property __name="label" en="Attachments" zc="关联文件" />
  </Item>
  <Item type="RelationshipType" keyed_name="Express DCO Signoff" config_id="63F1DDC3F8A7467CA6330BD4116CBB66">
-  <property __name="label" en="SignOffs" zc="" />
+  <property __name="label" en="SignOffs" zc="签审" />
  </Item>
  <Item type="RelationshipType" keyed_name="Document Changes" config_id="D18F556A7D98451DAC54233F6820EC4D">
   <property __name="label" en="Changes" zc="变更" />

@@ -30,7 +30,7 @@
   <property __name="label" en="Plan Finish" zc="计划完成日期" />
  </Item>
  <Item type="Field" keyed_name="date_due_target" config_id="A63A99BE80F34C9FA60D3C5B8278A83A">
-  <property __name="label" en="Target Due" zc="目标完成日期" />
+  <property __name="label" en="Target Due" zc="目标截至日期" />
  </Item>
  <Item type="Field" keyed_name="date_ef" config_id="636605E88BBF47C1893D194F25936C6A">
   <property __name="label" en="Earliest Finish" zc="最早完成日期" />
@@ -606,7 +606,7 @@
   <property __name="label" en="Changes Pending" zc="" />
  </Item>
  <Item type="Field" keyed_name="has_files" config_id="65F6A94DAEBC4C4CB90560794DE1A5B8">
-  <property __name="label" en="Files Attached" zc="" />
+  <property __name="label" en="Files Attached" zc="附加文件" />
  </Item>
  <Item type="Field" keyed_name="is_template" config_id="230061929A8B49AEB981DB16762BFAA1">
   <property __name="label" en="Template" zc="模板" />
@@ -643,7 +643,7 @@
   <property __name="label" en="Number" zc="编号" />
  </Item>
  <Item type="Field" keyed_name="owned_by_id" config_id="EFD87C6F7BF544E3885F43B24DB04CF4">
-  <property __name="label" en="Change Coordinator" zc="发起者" />
+  <property __name="label" en="Change Coordinator" zc="变更协调员" />
  </Item>
  <Item type="Field" keyed_name="priority" config_id="FEC6FA6452434F13A24EDA9504D75452"></Item>
  <Item type="Field" keyed_name="priority_groupbox" config_id="43659B0F3B8A4652A10BF089D182664A">
@@ -838,7 +838,7 @@
   <property __name="label" en="Description" zc="描述" />
  </Item>
  <Item type="Field" keyed_name="has_files" config_id="00789C5EDE3F4443AC6932EA81C9E9D6">
-  <property __name="label" en="Files Attached" zc="" />
+  <property __name="label" en="Files Attached" zc="附加文件" />
  </Item>
  <Item type="Field" keyed_name="item_info" config_id="DA9B8C94A8C949BFB3DA7265B44014BE"></Item>
  <Item type="Field" keyed_name="item_number" config_id="26B3C85947224A8393E362AF03399760">
@@ -868,7 +868,7 @@
   <property __name="label" en="Name" zc="" />
  </Item>
  <Item type="Field" keyed_name="cnlBtn" config_id="E2E5535C346348E29A2DA97C9F89E9A8">
-  <property __name="label" en="Cancel" zc="" />
+  <property __name="label" en="Cancel" zc="取消" />
  </Item>
  <Item type="Field" keyed_name="colsnum" config_id="5BC043837F914ACF85E7DF7EB4F36F82">
   <property __name="label" en="#Cols" zc="" />
@@ -877,7 +877,7 @@
   <property __name="label" en="html0" zc="" />
  </Item>
  <Item type="Field" keyed_name="okBtn" config_id="1527CF71ADF04029A816A27B0DC03FEF">
-  <property __name="label" en="OK" zc="" />
+  <property __name="label"  />
  </Item>
  <Item type="Field" keyed_name="rowsnum" config_id="0D679406B73944CEAFA2205D1A4EECB8">
   <property __name="label" en="#Rows" zc="" />
@@ -947,22 +947,22 @@
  </Item>
  <Item type="Field" keyed_name="item_info" config_id="C57A02F3116C44E98B7B6580ABC0595B"></Item>
  <Item type="Field" keyed_name="date_due_act" config_id="54D2F32D113F40ACB25D720897CC9837">
-  <property __name="label" en="Actual Finish" zc="" />
+  <property __name="label" en="Actual Finish" zc="实际完成日期" />
  </Item>
  <Item type="Field" keyed_name="date_due_sched" config_id="DE2C6676EC84471FB25E63B924C25365">
-  <property __name="label" en="Plan Finish" zc="" />
+  <property __name="label" en="Plan Finish" zc="计划完成日期" />
  </Item>
  <Item type="Field" keyed_name="date_due_target" config_id="DDECBA6D4E9E4B40A0438EFF18D80BD9">
-  <property __name="label" en="Target Due" zc="" />
+  <property __name="label" en="Target Due" zc="目标截至日期" />
  </Item>
  <Item type="Field" keyed_name="date_start_act" config_id="0F923C9A2DB646228561E31AFF7C2FBF">
-  <property __name="label" en="Actual Start" zc="" />
+  <property __name="label" en="Actual Start" zc="实际开始日期" />
  </Item>
  <Item type="Field" keyed_name="date_start_sched" config_id="C6944AEFB2DD40DEAA141B53485C767F">
-  <property __name="label" en="Plan Start" zc="" />
+  <property __name="label" en="Plan Start" zc="计划开始日期" />
  </Item>
  <Item type="Field" keyed_name="date_start_target" config_id="3FE89DFEAD2047759D9586990AAABBA8">
-  <property __name="label" en="Target Start" zc="" />
+  <property __name="label" en="Target Start" zc="目标开始日期" />
  </Item>
  <Item type="Field" keyed_name="date_user_estimate" config_id="DA27239C65F44EDBB6B1281E95F1F435">
   <property __name="label" en="Est. Completion" zc="" />
@@ -971,7 +971,7 @@
   <property __name="label" en="Description" zc="" />
  </Item>
  <Item type="Field" keyed_name="expected_duration" config_id="D878EB4CCC184357B4E423A7CB5C1248">
-  <property __name="label" en="Expected Duration" zc="" />
+  <property __name="label" en="Expected Duration" zc="预期工期" />
  </Item>
  <Item type="Field" keyed_name="hide_some_tabs_in_project_tmplt" config_id="75DA5C6CCA30489B8C73A7E75B97353E">
   <property __name="label" en="Hide Tabs In Project Template" zc="" />
@@ -981,13 +981,13 @@
  </Item>
  <Item type="Field" keyed_name="item_info" config_id="F4085530D230408A8EE37335A700CA11"></Item>
  <Item type="Field" keyed_name="managed_by_id" config_id="0CCFB0E7BAE1452B8A54F4E033A8BF0D">
-  <property __name="label" en="Leader" zc="" />
+  <property __name="label" en="Leader" zc="负责人" />
  </Item>
  <Item type="Field" keyed_name="name" config_id="7C2F5A7D298B44DCBEE44BC2ECAF24EE">
   <property __name="label" en="Name" zc="" />
  </Item>
  <Item type="Field" keyed_name="percent_compl" config_id="DB9DB2838C534FC6ADCD9E05AAD773DD">
-  <property __name="label" en="Percent Complete" zc="" />
+  <property __name="label" en="Percent Complete" zc="完成度" />
  </Item>
  <Item type="Field" keyed_name="rollup_date_start_act" config_id="EAE782ECC9F3404681220ADA1A4F3430">
   <property __name="label" en="Rollup Actual Start" zc="" />
@@ -1000,10 +1000,10 @@
  </Item>
  <Item type="Field" keyed_name="scheduling_methods" config_id="B53FB51A54E14765A3539E11BA4E1906"></Item>
  <Item type="Field" keyed_name="signoff_required" config_id="B502A7366C724D368ACC42D8B933919A">
-  <property __name="label" en="Leader Signoff" zc="" />
+  <property __name="label" en="Leader Signoff" zc="负责人签审" />
  </Item>
  <Item type="Field" keyed_name="work_est" config_id="C014D211C52B4C7B9F094665BAA039BC">
-  <property __name="label" en="Work Est" zc="" />
+  <property __name="label" en="Work Est" zc="工作预算" />
  </Item>
  <Item type="Field" keyed_name="customer" config_id="F5F6CCFE609445CCA73943AD8B8959D3">
   <property __name="label" en="Customer" zc="客户" />
@@ -2044,7 +2044,7 @@
  </Item>
  <Item type="Field" keyed_name="item_info" config_id="7A0BF8B62FF24B0FAF200E0FC08942E8"></Item>
  <Item type="Field" keyed_name="btn_Cancel" config_id="6E978086B3BE4119AD1074F2EAD4CB88">
-  <property __name="label" en="Cancel" zc="" />
+  <property __name="label" en="Cancel" zc="取消" />
  </Item>
  <Item type="Field" keyed_name="btn_Save" config_id="415E33225ACF4EC4883DC4D1544203D1">
   <property __name="label" en="Save" zc="" />
@@ -2272,7 +2272,7 @@
  </Item>
  <Item type="Field" keyed_name="item_info" config_id="F227891BC44A411FBC5333468C617710"></Item>
  <Item type="Field" keyed_name="cancel_button" config_id="6F7903F5789C47CAA83263B7F3557545">
-  <property __name="label" en="Cancel" zc="" />
+  <property __name="label" en="Cancel" zc="取消" />
  </Item>
  <Item type="Field" keyed_name="change_type_cad_document" config_id="A2B073D900C44495B270E975C050C1B1">
   <property __name="label" en="CAD Document:" zc="" />
@@ -2305,7 +2305,7 @@
   <property __name="legend" en="Express" zc="" />
  </Item>
  <Item type="Field" keyed_name="ok_button" config_id="BC79A28FA56C40CD8CB0143670989E74">
-  <property __name="label" en="Ok" zc="" />
+  <property __name="label" en="OK" zc="确定" />
  </Item>
  <Item type="Field" keyed_name="PR" config_id="8E100BF3997E4835BF2F295906321210">
   <property __name="label" en="PR" zc="" />
@@ -2650,7 +2650,7 @@
   <property __name="label" en="Server" zc="" />
  </Item>
  <Item type="Field" keyed_name="ok" config_id="7847FD387CB740A6825C738949B48FBD">
-  <property __name="label" en="OK" zc="" />
+  <property __name="label" en="OK" zc="确定" />
  </Item>
  <Item type="Field" keyed_name="text_database" config_id="544BE5212D6C4E9DB1BCAB1CB3AD5BA2"></Item>
  <Item type="Field" keyed_name="text_login" config_id="5CB013DCA09541A1AFBB89F7AB912208"></Item>
@@ -2825,13 +2825,13 @@
   <property __name="label" en="Started On" zc="" />
  </Item>
  <Item type="Field" keyed_name="status" config_id="83A7F666DB6E4A75B72652E4159ADDF5">
-  <property __name="label" en="Status" zc="" />
+  <property __name="label" en="Status" zc="状态" />
  </Item>
  <Item type="Field" keyed_name="user_data" config_id="6B8FBEB487F6458DADDF767EB4EB7B8C">
   <property __name="label" en="User Data" zc="" />
  </Item>
  <Item type="Field" keyed_name="btn_Cancel" config_id="91E105B672A340C68D9102D79684703B">
-  <property __name="label" en="Cancel" zc="" />
+  <property __name="label" en="Cancel" zc="取消" />
  </Item>
  <Item type="Field" keyed_name="btn_Save" config_id="4F07C8AB6E3D4AEFAAEAE39225E85163">
   <property __name="label" en="Save" zc="" />
@@ -3042,7 +3042,7 @@
   <property __name="label" en="Escalate To" zc="" />
  </Item>
  <Item type="Field" keyed_name="expected_duration" config_id="BD8E82B42C114E47A35360FF153B8B5E">
-  <property __name="label" en="Expected Duration" zc="" />
+  <property __name="label" en="Expected Duration" zc="预期工期" />
  </Item>
  <Item type="Field" keyed_name="is_auto" config_id="FFF50371A4644ACD9AC23E8A4F0EE327">
   <property __name="label" en="Automatic Activity" zc="" />
@@ -3064,7 +3064,7 @@
   <property __name="label" en="Name" zc="" />
  </Item>
  <Item type="Field" keyed_name="priority" config_id="BCDB0AE980FC4E9B85D670D99B52C2D8">
-  <property __name="label" en="Priority" zc="" />
+  <property __name="label" en="Priority" zc="优先级" />
  </Item>
  <Item type="Field" keyed_name="reminder_count" config_id="DB64ABC203184F53B63B689C346D3F25">
   <property __name="label" en="Reminder Count" zc="" />
@@ -3786,7 +3786,7 @@
   <property __name="label" en="Zip Code" zc="邮编" />
  </Item>
  <Item type="Field" keyed_name="cancel_button" config_id="B4446DECDC204A289A560744A6F03BA9">
-  <property __name="label" en="Cancel" zc="" />
+  <property __name="label" en="Cancel" zc="取消" />
  </Item>
  <Item type="Field" keyed_name="conversion_result" config_id="77FC2FC899D847928DE9A212A2C6D700">
   <property __name="label" en="Conversion Result" zc="" />
@@ -4035,7 +4035,7 @@
   <property __name="label" en="Property Name" zc="" />
  </Item>
  <Item type="Field" keyed_name="cancel" config_id="D8EF56EDA724419E9CFE1A526C0736C9">
-  <property __name="label" en="Cancel" zc="" />
+  <property __name="label" en="Cancel" zc="取消" />
  </Item>
  <Item type="Field" keyed_name="message_line_1" config_id="FEF7B2240F0A465F825047A6A9434A5E">
   <property __name="label" en="Aras Subscribers get Secure Social collaboration," zc="" />
@@ -4212,7 +4212,7 @@
   <property __name="label" en="Rule" zc="" />
  </Item>
  <Item type="Field" keyed_name="replication_status" config_id="8980385E93F04773BB1EB56744E4E76A">
-  <property __name="label" en="Status" zc="" />
+  <property __name="label" en="Status" zc="状态" />
  </Item>
  <Item type="Field" keyed_name="start_time" config_id="FDB876C5CC5B45B7BEA1CD21B11F5E12">
   <property __name="label" en="Started" zc="" />
@@ -4240,7 +4240,7 @@
   <property __name="label" en="Clear" zc="" />
  </Item>
  <Item type="Field" keyed_name="cancel_button" config_id="241750131C634C1DAF924D1D0F9BED4D">
-  <property __name="label" en="Cancel" zc="" />
+  <property __name="label" en="Cancel" zc="取消" />
  </Item>
  <Item type="Field" keyed_name="disabledContentGroupBox" config_id="0681CEF0CA8F4CC19AED6216049813E4">
   <property __name="legend" en="Disabled Content View" zc="" />
@@ -4355,7 +4355,7 @@
   <property __name="label" en="Track History" zc="" />
  </Item>
  <Item type="Field" keyed_name="ApplyButton" config_id="3B074E09140E4AF9AD67C09BBD57979D">
-  <property __name="label" en="OK" zc="" />
+  <property __name="label" en="OK" zc="确定" />
  </Item>
  <Item type="Field" keyed_name="ColumnNameInput" config_id="5699CDBA90E74C179BD0D4F3202EF97A">
   <property __name="label" en="Column's Name" zc="" />
@@ -4402,7 +4402,7 @@
   <property __name="label" en="Suffix" zc="后缀" />
  </Item>
  <Item type="Field" keyed_name="cancel_button" config_id="F7D9E5866EEC476684B858CE5AE756A4">
-  <property __name="label" en="Cancel" zc="" />
+  <property __name="label" en="Cancel" zc="取消" />
  </Item>
  <Item type="Field" keyed_name="change_type_input" config_id="A7CB26BA51994D3C929F7CB6849C9084">
   <property __name="label" en="Change Type:" zc="" />
@@ -4411,7 +4411,7 @@
   <property __name="label" en="Item:" zc="" />
  </Item>
  <Item type="Field" keyed_name="ok_button" config_id="CDF9F7528D7E4FC9BD50AB0375EB262C">
-  <property __name="label" en="OK" zc="" />
+  <property __name="label" en="OK" zc="确定" />
  </Item>
  <Item type="Field" keyed_name="event_type" config_id="95A94D8D265E43F28296599AFB0D8199">
   <property __name="label" en="Event Type" zc="" />
@@ -4523,7 +4523,7 @@
   <property __name="label" en="Escalate To" zc="转发至" />
  </Item>
  <Item type="Field" keyed_name="expected_duration" config_id="E722C242807749B2951C8FDEC6649E56">
-  <property __name="label" en="Expected Duration" zc="预期时间" />
+  <property __name="label" en="Expected Duration" zc="预期工期" />
  </Item>
  <Item type="Field" keyed_name="groupBoxCheckbox" config_id="789519942BAD44C2A1D3FA29B0EAE246"></Item>
  <Item type="Field" keyed_name="html0" config_id="4D651B60B06947E4B8C497EBBA4A17E2"></Item>
@@ -4712,7 +4712,7 @@
   <property __name="label" en="OK Button Label" zc="" />
  </Item>
  <Item type="Field" keyed_name="priority" config_id="CC3E7ED5C90B4A8EBC8DE165D8777925">
-  <property __name="label" en="Priority" zc="" />
+  <property __name="label" en="Priority" zc="优先级" />
  </Item>
  <Item type="Field" keyed_name="show_exit_button" config_id="9EE4C0537F9A42429160AC004AD60CDD">
   <property __name="label" en="Show Exit Button" zc="" />
@@ -4727,7 +4727,7 @@
   <property __name="label" en="Text" zc="" />
  </Item>
  <Item type="Field" keyed_name="title" config_id="BB089A49BBAA495BB55B6120AB679845">
-  <property __name="label" en="Title" zc="" />
+  <property __name="label" en="Title" zc="标题" />
  </Item>
  <Item type="Field" keyed_name="type" config_id="A5C011636B2B433380B710AFE0E528E7">
   <property __name="label" en="Type" zc="" />
@@ -4895,31 +4895,31 @@
  <Item type="Field" keyed_name="item_info" config_id="CD974170EAC14C9F95F915E099360894"></Item>
  <Item type="Field" keyed_name="html0" config_id="E64216B266C24465AD4469E6C3C75039"></Item>
  <Item type="Field" keyed_name="change_description" config_id="72DF511891FA489BA5C1A79C7D009B1C">
-  <property __name="label" en="Change Description" zc="" />
+  <property __name="label" en="Change Description" zc="变更描述" />
  </Item>
  <Item type="Field" keyed_name="change_reason" config_id="9E946617D2254BEFAD3146A2BE5776F1">
-  <property __name="label" en="Change Reason" zc="" />
+  <property __name="label" en="Change Reason" zc="变更原因" />
  </Item>
  <Item type="Field" keyed_name="html_item_state" config_id="C21E196551BA422B83871BF01463000D"></Item>
  <Item type="Field" keyed_name="item_info" config_id="E7A872E0A06343ACA3822A33AB68F39F"></Item>
  <Item type="Field" keyed_name="item_number" config_id="8A314BC19E57433E9A13F15236D62B03">
-  <property __name="label" en="Number" zc="" />
+  <property __name="label" en="Number" zc="编号" />
  </Item>
  <Item type="Field" keyed_name="owned_by_id" config_id="531BCEC8635F40A3B45A964E94715845">
-  <property __name="label" en="Change Coordinator" zc="" />
+  <property __name="label" en="Change Coordinator" zc="变更协调员" />
  </Item>
  <Item type="Field" keyed_name="priority" config_id="A83E231551BA415F9BE3090FFA1E0AA8"></Item>
  <Item type="Field" keyed_name="priority_groupbox" config_id="0578F4CBE40444DC805FF34E071908D1">
-  <property __name="legend" en="Priority" zc="" />
+  <property __name="legend" en="Priority" zc="优先级" />
  </Item>
  <Item type="Field" keyed_name="release_date" config_id="52D45D8A8F7943DEAB2F6F6DF32DFB1F">
-  <property __name="label" en="Release Date" zc="" />
+  <property __name="label" en="Release Date" zc="发布日期" />
  </Item>
  <Item type="Field" keyed_name="team_id" config_id="B351A4952128438897C8FC6C3680D26E">
-  <property __name="label" en="Team" zc="" />
+  <property __name="label" en="Team" zc="团队" />
  </Item>
  <Item type="Field" keyed_name="title" config_id="B9A355CAB48D43D9B980E914DD1BB1B5">
-  <property __name="label" en="title" zc="" />
+  <property __name="label" en="title" zc="标题" />
  </Item>
  <Item type="Field" keyed_name="item_info" config_id="7EF4DEAD3F1F4A0B8F6E7435E741A93B"></Item>
  <Item type="Field" keyed_name="basis" config_id="6423003061AB4445AC6E61CD55A4B280"></Item>
@@ -5138,7 +5138,7 @@
   <property __name="label" en="Started On" zc="" />
  </Item>
  <Item type="Field" keyed_name="status" config_id="0F4D6AB854784E43A1876C4854750406">
-  <property __name="label" en="Status" zc="" />
+  <property __name="label" en="Status" zc="状态" />
  </Item>
  <Item type="Field" keyed_name="user_data" config_id="AA835553FCA340ACA9EC29E6F7DB693D">
   <property __name="label" en="User Data" zc="" />
